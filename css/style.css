@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/Home\ -\ 1300\ –\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    /* height: 7800px; */
+    /* height: 100vh; */
+    font-size: 16px;
+}
+.container{
+    width: 1341px;
+}
+/* .main{
+    position: absolute;
+     top: 257px; 
+    width: 100vw;
+} */
+/*------------------HEADER------------------*/
+.header{
+    background: rgb(0, 0, 0);
+    position: fixed;
+    z-index: 100;
+}
+.header_img img{
+height: 162px;
+width: 100vw;
+background-color: rgba(0,0,0,0.8);
+}
+.header_c_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    height: 88px;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1341px;
+}
+.header_nav a{
+    text-decoration: none;
+    color: #D7B867;
+    font-size: 1.25rem;
+    font-family: 'Montserrat';  
+    transition: all .1s ease;
+
+}
+.header_nav a:hover{
+    border: 2px solid #D7B867;
+    padding: 5px;
+}
+/*Sec. Welcome Page*/
+.welcome-page{
+   position: relative;
+   width: 100%;
+}
+.welcome-page{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/home/home_1920.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* position: absolute;
+    top: 246px; */
+}
+.welcome-page::before{
+    content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.4);
+}
+.welcome-page_img_welcome{
+    width: 100vw;
+    height: 142px;
+    background-image: url('../img/royal_1920.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-page_img_welcome h2{
+    font-size: 4.37rem;
+    color: #000;
+    font-family: 'Cormorant Garamond';
+    text-align: center;
+}
+.welcome-page_info_btn{
+    position: relative;
+    top: 460px;
+    /* width: 1341px; */
+    text-align: center;
+}
+.welcome-page_info_btn h1{
+    color: #D7B867;
+    font-size: 10rem;
+    font-weight: 200;
+    font-family: 'Cormorant Garamond';
+    text-align: center;
+    /* margin: 0 289px; */
+}
+.welcome-page_info_btn p{
+    color: #D7B867;
+    font-size: 2.5rem;
+    font-weight: 200;
+    font-family: 'Cormorant Garamond';
+    text-align: center;
+    margin: 0 487px;
+}
+.welcome-page_info_btn_c_btn{
+    margin-top: 67px;
+    width: auto;
+}
+.welcome-page_info_btn_c_btn a{
+    text-decoration: none;
+    color: #D7B867;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 1.56rem;
+    padding: 10px;
+    border: 1px #D7B867 solid;
+    border-radius: 50px;
+}
+/*Sec Unique Product*/
+.unique_product{
+    height: 70vh;
+    text-align: center;
+}
+.unique_title_secc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    text-align: center;
+}
+.unique_title_secc h2{
+    color: #D7B867;
+    text-align: center;
+    font-family: 'Cormorant Garamond';
+    font-size: 5.62rem;
+}
+.unique_product_c_cards{
+    margin-top: 178px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 123px;
+}
+/*Sec. Choose Us*/
+.choose_us{
+    /* height: 70vh; */
+    text-align: center;
+    margin-bottom: 210px;
+}
+.unique_cont_info{
+    color: #D7B867;
+    font-family: 'Cormorant Garamond';
+    font-size: 2.5rem;
+    margin-top: 126px;
+    margin: 126px 332px 0 332px;
+}
+.btn_learn_more{
+    margin-top: 67px;
+    
+}
+.btn_learn_more a{
+    text-decoration: none;
+    color: #D7B867;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 1.56rem;
+    padding: 10px;
+    border: 1px #D7B867 solid;
+    border-radius: 50px;
+}
+.explore_world{
+    height: 70vh;
+    text-align: center;
+    margin-bottom: 210px;
+}
+/*Sec. Associating*/
+.associating{
+    text-align: center;
+}
+.associating_c_ul{
+    margin-bottom: 187px;
+
+}
+.associating_ul{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+}
+.associating_ul_li{
+   padding: 0 45px;
+   text-align: center;
+   width: 298px;
+
+}
+.associating_ul_li img{
+    width: 166px;
+}
+.associating_ul_li  p{
+    color: #D7B867;
+    font-size: 2.5rem;
+    font-family: 'Cormorant Garamond';
+    font-weight: normal;
+    text-align: center;
+}
+/*Sec. Explore Destinations*/
+.explore-destinations{
+    /* height: 70vh; */
+    text-align: center;
+}
+.explore-destinations_c_ul{
+    margin-top: 115px;
+}
+.xplore-destinations_ul{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    /* flex-direction: row; */
+    justify-content: center;
+}
+.xplore-destinations_ul ul li a img{
+    max-width: 362px;
+}
+.xplore-destinations_ul ul li{
+    padding: 0 40px;
+}
+
+/*---------------FOOTER-----------*/
+.footer_display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.footer_c_info{
+    max-width: 1361px;
+    margin-top: 134px;
+    margin-bottom: 88px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_c_info_form{
+    width: 50%;
+}
+.footer_c_info_form p{
+    color: #D7B867;
+    font-size: 1.8rem;
+    font-family: 'Cormorant Garamond';
+    margin-bottom: 32px;
+}
+.footer_c_info_form form input{
+    border: 1px solid #D7B867;
+    width: 411px;
+    height: 87px;
+    font-family: 'Cormorant Garamond';
+    font-size: 1.8rem;
+    color: #D7B867;
+    background: transparent;
+}
+.footer_c_info_form form{
+    display: flex;
+}
+.footer_c_info_form form button{
+    border: 1px solid #D7B867;
+    width: 155px;
+    height: 87px;
+    background-image: url(../img/royal_1920.png);
+    font-family: 'Cormorant Garamond';
+    font-size: 1.8rem;
+    color: #000;
+}
+.info_contact{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.info_contact img{
+    width: 30px;
+    height: 25px;
+    margin-right: 11px;
+}
+.info_contact p{
+    height: 25px;
+    color: #D7B867;
+    font-size: 1.8rem;
+}
+.footer_ul li{
+    list-style: none;
+}
+.footer_ul li a{
+    text-decoration: none;
+    color: #D7B867;
+    font-size: 2.5rem;
+    font-family: 'Cormorant Garamond';
+}
+.footer_under{
+    height: 139px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_under div{
+    margin: 0 139px;
+}
+.footer_under_reserved{
+    color: #D7B867;
+    font-family: 'Cormorant Garamond';
+    font-size: 1.8rem;
+}
+.footer_under_termins a{
+    text-decoration: none;
+    color: #D7B867;
+    font-family: 'Cormorant Garamond';
+    font-size: 1.8rem;
+}
