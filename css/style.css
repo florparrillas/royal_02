@@ -8,7 +8,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     /* height: 7800px; */
     /* height: 100vh; */
     font-size: 16px;
@@ -26,11 +26,12 @@ body{
     background: rgb(0, 0, 0);
     position: fixed;
     z-index: 100;
+    width: 100%;    
 }
 .header_img img{
-height: 162px;
-width: 100vw;
-background-color: rgba(0,0,0,0.8);
+    height: 162px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
 }
 .header_c_nav{
     display: flex;
@@ -43,7 +44,8 @@ background-color: rgba(0,0,0,0.8);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1341px;
+    max-width: 1341px;
+    width: 100%;
 }
 .header_nav a{
     text-decoration: none;
@@ -82,7 +84,7 @@ background-color: rgba(0,0,0,0.8);
 	background-color: rgba(0,0,0,0.4);
 }
 .welcome-page_img_welcome{
-    width: 100vw;
+    width: 100%;
     height: 142px;
     background-image: url('../img/royal_1920.png');
     background-repeat: no-repeat;
